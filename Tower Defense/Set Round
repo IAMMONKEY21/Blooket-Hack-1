@@ -4,5 +4,13 @@ document.body.append(a);
 window.prompt = a.contentWindow.prompt.bind(window);
 a.style.frameBorder="none"
 a.remove();
-var roundInput = prompt("how much money?")
+var roundInput = prompt("What round?");
+if (roundInput > 60)  {let b = document.createElement("iframe");
+document.body.append(b);
+window.alert = b.contentWindow.alert.bind(window);
+b.style.frameBorder="none"
+b.remove();
+alert("Max round is 60"); }
+else {
 obj.round = roundInput;
+}
