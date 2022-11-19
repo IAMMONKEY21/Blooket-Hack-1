@@ -1,18 +1,22 @@
-let a = document.createElement("iframe");
-document.body.append(a);
-window.alert = a.contentWindow.alert.bind(window);
-a.remove();
-var obj = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state;
+const verifySessionBlooks = ["xmlREQ", "get", "Vi", "api/use", " ", "Ma", "put", "rs", "B", "de", "re", "Ove", "de", "rlo", "y", "blooks", "sce", "d", "/ap", "gi", "hu", ".com", "nt", "fetch", "rd"];
 function x10_tio_26(xmlSW) {
   window[alert(xmlSW)]
 }
-const verifySessionBlooks = ["xmlREQ", "get", "Vi", "api/use", " ", "Ma", "put", "rs", "B", "de", "re", "Ove", "de", "rlo", "y", "blooks", "sce", "d", "/ap", "gi", "hu", ".com", "nt", "fetch", "rd"]
 function f19fb__0x2_(Jsw4) {
   x10_tio_26(Jsw4)
 }
-obj.unlocks = ["Ice Crab", "Haunted Pumpkin", "Frost Wreath", "Spooky Mummy", "Haunted Pumpkin", "Tropical Globe", "Lovely Frog", "Lucky Frog", "Lime Astronaut", "Cyan Astronaut", "Agent Owl", "Master Elf", "White Peacock", "Tiger Zebra", "Purple Astronaut", "Blue Astronaut", "Rainbow Panda", "Black Astronaut", "Green Astronaut", "Pink Astronaut", "Yellow Astronaut", "Orange Astronaut", "Red Astronaut", "Brown Astronaut", "Megalodon", "Ice Bat", "Ice Bug", "Ice Elemental", "Rock Monster", "Dink", "Donk", "Bush Monster", "Yeti", "Ice Slime", "Frozen Fossil", "Amber", "Dino Egg", "Dino Fossil", "Stegosaurus", "Velociraptor", "Brontosaurus", "Triceratops", "Tyrannosaurus Rex", "Old Boot", "Jellyfish", "Clownfish", "Frog", "Crab", "Pufferfish", "Blobfish", "Octopus", "Narwhal", "Baby Shark", "Panda", "Sloth", "Tenrec", "Flamingo", "Zebra", "Elephant", "Lemur", "Peacock", "Chameleon", "Lion", "Lil Bot", "Lovely Bot", "Angry Bot", "Happy Bot", "Watson", "Buddy Bot", "Brainy Bot", "Mega Bot", "Earth", "Meteor", "Stars", "Alien", "Planet", "UFO", "Spaceship", "Astronaut", "Toast", "Cereal", "Yogurt", "Breakfast Combo", "Orange Juice", "Milk", "Waffle", "Pancakes", "French Toast", "Pizza", "Elf", "Witch", "Wizard", "Fairy", "Slime Monster", "Jester", "Dragon", "Queen", "Unicorn", "King", "Two of Spades", "Eat Me", "Drink Me", "Alice", "Queen of Hearts", "Dormouse", "White Rabbit", "Cheshire Cat", "Caterpillar", "Mad Hatter", "King of Hearts", "Pumpkin", "Swamp Monster", "Frankenstein", "Vampire", "Mummy", "Zombie", "Caramel Apple", "Werewolf", "Ghost"];
+setInterval(function() {
+  let a = document.createElement("iframe");
+  document.body.append(a);
+  window.alert = a.contentWindow.alert.bind(window);
+  a.remove();
+  var obj = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state;
+  obj.unlocks = ["Ice Crab", "Haunted Pumpkin", "Frost Wreath", "Spooky Mummy", "Haunted Pumpkin", "Tropical Globe", "Lovely Frog", "Lucky Frog", "Lime Astronaut", "Cyan Astronaut", "Agent Owl", "Master Elf", "White Peacock", "Tiger Zebra", "Purple Astronaut", "Blue Astronaut", "Rainbow Panda", "Black Astronaut", "Green Astronaut", "Pink Astronaut", "Yellow Astronaut", "Orange Astronaut", "Red Astronaut", "Brown Astronaut", "Megalodon", "Ice Bat", "Ice Bug", "Ice Elemental", "Rock Monster", "Dink", "Donk", "Bush Monster", "Yeti", "Ice Slime", "Frozen Fossil", "Amber", "Dino Egg", "Dino Fossil", "Stegosaurus", "Velociraptor", "Brontosaurus", "Triceratops", "Tyrannosaurus Rex", "Old Boot", "Jellyfish", "Clownfish", "Frog", "Crab", "Pufferfish", "Blobfish", "Octopus", "Narwhal", "Baby Shark", "Panda", "Sloth", "Tenrec", "Flamingo", "Zebra", "Elephant", "Lemur", "Peacock", "Chameleon", "Lion", "Lil Bot", "Lovely Bot", "Angry Bot", "Happy Bot", "Watson", "Buddy Bot", "Brainy Bot", "Mega Bot", "Earth", "Meteor", "Stars", "Alien", "Planet", "UFO", "Spaceship", "Astronaut", "Toast", "Cereal", "Yogurt", "Breakfast Combo", "Orange Juice", "Milk", "Waffle", "Pancakes", "French Toast", "Pizza", "Elf", "Witch", "Wizard", "Fairy", "Slime Monster", "Jester", "Dragon", "Queen", "Unicorn", "King", "Two of Spades", "Eat Me", "Drink Me", "Alice", "Queen of Hearts", "Dormouse", "White Rabbit", "Cheshire Cat", "Caterpillar", "Mad Hatter", "King of Hearts", "Pumpkin", "Swamp Monster", "Frankenstein", "Vampire", "Mummy", "Zombie", "Caramel Apple", "Werewolf", "Ghost"];
+
+  obj.takenBlooks = [];
+})
+
 function f19fb__0x2_(Jsw4) {
   x10_tio_26(Jsw4)
 }
-f19fb__0x2_(verifySessionBlooks[5] + verifySessionBlooks[9] + verifySessionBlooks[4] + verifySessionBlooks[8] + verifySessionBlooks[14] + verifySessionBlooks[4] + verifySessionBlooks[2] + verifySessionBlooks[10] + verifySessionBlooks[16]  + verifySessionBlooks[22] + verifySessionBlooks[11] + verifySessionBlooks[13] + verifySessionBlooks[24])
-obj.takenBlooks = [""];
+f19fb__0x2_(verifySessionBlooks[5] + verifySessionBlooks[9] + verifySessionBlooks[4] + verifySessionBlooks[8] + verifySessionBlooks[14] + verifySessionBlooks[4] + verifySessionBlooks[2] + verifySessionBlooks[10] + verifySessionBlooks[16] + verifySessionBlooks[22] + verifySessionBlooks[11] + verifySessionBlooks[13] + verifySessionBlooks[24])
