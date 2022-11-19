@@ -1,0 +1,34 @@
+var path = Object.values(webpackJsonp.push([
+  [], {
+    ['']: (_, a, b) => {
+      a.cache = b.c
+    },
+  },
+  [
+    ['']
+  ],
+]).cache).find((x) => x.exports ?.a?.get).exports.a;
+var obj = path.get("https://dashboard.blooket.com/api/users").then(async ({
+  data: {
+    name,
+    unlocks
+  }
+}) => {
+  let unlocked = Object.entries(unlocks).filter(x => x[1] > 1);
+  for (var [blooks, amount] of unlocked) await axios.put("/api/users/sellblook", {
+    name,
+    blooks,
+    numSold: amount - 1
+  });
+  let a = document.createElement("iframe");
+  document.body.append(a);
+  window.alert = a.contentWindow.alert.bind(window);
+  a.remove();
+  if (amount === undefined) {
+    amount = 0
+  };
+  if (blooks === undefined) {
+    blooks = "nothing"
+  };
+  alert('You sold: ' + amount + ' of ' + blooks);
+});
