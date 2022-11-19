@@ -20,7 +20,7 @@ if (0 == document.location.pathname.indexOf("/play")) {
   let a = document.createElement("iframe");
   document.body.append(a);
   window.alert = a.contentWindow.alert.bind(window);
-  a.remove;
+  a.remove();
   if (obj.xpAvailable === undefined) {
     obj.xpAvailable = 0
   }
