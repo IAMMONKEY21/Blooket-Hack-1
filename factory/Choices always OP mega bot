@@ -1,0 +1,25 @@
+ setInterval(function() {
+   var obj = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.state.choices[0];
+   obj.name = "Mega Bot";
+   obj.time = [
+     1,
+     1,
+     1,
+     1,
+     1
+   ];
+   obj.cash = [
+     800000000000000,
+     800000000000000,
+     800000000000000,
+     800000000000000,
+     800000000000000
+   ];
+   obj.price = [10,
+     10,
+     10,
+     10
+   ]
+   obj.class = "🤖";
+   obj.rarity = "legendary";
+ })
