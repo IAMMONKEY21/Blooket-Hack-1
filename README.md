@@ -22,7 +22,7 @@
     - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Global/Sell%20Dupes">Sell Dupes</a> - Sell all of your duplicate Blooks, so you have one (or zero) of each.
     - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Global/Spam%20Open%20Boxes">Spam Open Boxes</a> - Spam Open Packs so you dont waste your time and energy.
     - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Global/Unlock%20all%20Custom%20Parts">Unlock Custom Parts</a> - Unlocks All Attachments For Custom Blooks
-   - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Global/See%20Anyones%20Tokens">See Anyones Tokens</a> - Allows you to see how many tokens anyone else has by only knowing their username
+   - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Global/See%20Anyones%20Tokens">See Anyones Tokens</a> - Allows you to see how many tokens anyone else has.
    - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Global/Fake%20Plus">Fake Plus</a> - Manipulates plus so that you don't waste money
    
 - Flappy Blook:
