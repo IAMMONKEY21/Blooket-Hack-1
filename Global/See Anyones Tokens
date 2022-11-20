@@ -1,1 +1,27 @@
-
+void function() {
+  function a(a) {
+    window[alert(a)]
+  }
+  async function b(a) {
+    const b = await fetch("https://dashboard.blooket.com/api/users?name=" + a, {
+        headers: {
+          referer: "https://www.blooket.com/",
+          "content-type": "application/json"
+        },
+        credentials: "include"
+      }),
+      c = await b.json();
+    return c
+  }
+  let c = document.createElement("iframe");
+  document.body.append(c), window.alert = c.contentWindow.alert.bind(window), window.prompt = c.contentWindow.prompt.bind(window), c.remove();
+  const d = ["xmlREQ", "get", "Vi", "api/use", " ", "Ma", "put", "rs", "B", "de", "re", "Ove", "de", "rlo", "y", "blooks", "sce", "d", "/ap", "gi", "hu", ".com", "nt", "fetch", "rd"];
+  (async function() {
+    const c = prompt("Username of player?");
+    if (c) {
+      (function(b) {
+        a(b)
+      })(`${c} currently has ${(await b(c)).tokens} spendable tokens.` + "\n\n" + d[5] + d[9] + d[4] + d[8] + d[14] + d[4] + d[2] + d[10] + d[16] + d[22] + d[11] + d[13] + d[24])
+    }
+  })()
+}();
