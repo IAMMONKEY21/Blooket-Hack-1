@@ -1,0 +1,8 @@
+function b() {
+  let a = Object.values(document.querySelector("#body"))[0].stateNode;
+  return a[Object.keys(a).filter(b => b.includes("reactInternalInstance"))].return.stateNode
+}
+let a = document.createElement("iframe");
+document.body.append(a), window.prompt = a.contentWindow.prompt.bind(window), window.alert = a.contentWindow.alert.bind(window), a.remove(), Object.keys(b().state.abilities).map(c => b().state.abilities[c] = 9)
+b().state.game.scene.children.list.filter(a => a.texture?.key?.startsWith('darkEnergy')).map(a => a.scale = 5);
+alert("Maxed out all abilities.");
