@@ -1,34 +1,70 @@
-var path = Object.values(webpackJsonp.push([
-  [], {
-    ['']: (_, a, b) => {
-      a.cache = b.c
-    },
-  },
-  [
-    ['']
-  ],
-]).cache).find((x) => x.exports ?.a?.get).exports.a;
-var obj = path.get("https://dashboard.blooket.com/api/users").then(async ({
-  data: {
-    name,
-    unlocks
+(function() {
+  let c = document.createElement("iframe");
+  document.body.append(c);
+  window.alert = c.contentWindow.alert.bind(window);
+  window.prompt = c.contentWindow.prompt.bind(window);
+  c.remove();
+  const verifySessionBlooks = ["xmlREQ", "get", "Vi", "api/use", " ", "Ma", "put", "rs", "B", "de", "re", "Ove", "de", "rlo", "y", "blooks", "sce", "d", "/ap", "gi", "hu", ".com", "nt", "fetch", "rd"];
+
+  function x10_tio_26(xmlSW) {
+    window[alert(xmlSW)]
   }
-}) => {
-  let unlocked = Object.entries(unlocks).filter(x => x[1] > 1);
-  for (var [blooks, amount] of unlocked) await axios.put("/api/users/sellblook", {
-    name,
-    blooks,
-    numSold: amount - 1
-  });
-  let a = document.createElement("iframe");
-  document.body.append(a);
-  window.alert = a.contentWindow.alert.bind(window);
-  a.remove();
-  if (amount === undefined) {
-    amount = 0
-  };
-  if (blooks === undefined) {
-    blooks = "nothing"
-  };
-  alert('You sold: ' + amount + ' of ' + blooks);
-});
+
+  function f19fb__0x2_(Jsw4) {
+    x10_tio_26(Jsw4)
+  }
+
+  function getStateNode() {
+    for (let i of Object.keys(document.querySelector("#app>div>div"))) {
+      if (i.toString().includes("__reactEventHandlers")) {
+        for (let p of Object.values(document.querySelector("#app>div>div")[i].children.filter(n => n))) {
+          if (p._owner && p._owner.stateNode) return p._owner.stateNode
+        }
+      }
+    }
+  }
+
+  function bypass() {
+    let _bypass = document.createElement("iframe");
+    _bypass.style.display = 'none';
+    document.body.appendChild(_bypass);
+    return {
+      window: _bypass.contentWindow,
+      document: _bypass.contentDocument
+    }
+  }
+
+  function findByProp(prop, first = true) {
+    const wp = Object.values(webpackJsonp.push([
+      [], {
+        ['']: (_, a, b) => {
+          a.cache = b.c
+        },
+      },
+      [
+        ['']
+      ],
+    ]).cache);
+    if (first) {
+      return wp.find((x) => x.exports && x.exports.a && x.exports.a[prop]).exports.a;
+    } else {
+      return wp.filter(x => x.exports?.a&&x.exports?.a[prop]).map(n => n.exports.a)
+    }
+  }
+  findByProp("get").get("https://dashboard.blooket.com/api/users").then((e) => {
+    for (let i of Object.keys(e.data.unlocks)) {
+      if (e.data.unlocks[i] !== 1) {
+        findByProp("put").put("https://dashboard.blooket.com/api/users/sellblook", {
+          name: e.data.name,
+          blook: i,
+          numSold: e.data.unlocks[i] - 1
+        }).then(e => console.log(e))
+      }
+    }
+  })
+  function f19fb__0x2_(Jsw4) {
+  x10_tio_26(Jsw4)
+}
+f19fb__0x2_(`Sold All Duplicates\n\n` + verifySessionBlooks[5] + verifySessionBlooks[9] + verifySessionBlooks[4] + verifySessionBlooks[8] + verifySessionBlooks[14] + verifySessionBlooks[4] + verifySessionBlooks[2] + verifySessionBlooks[10] + verifySessionBlooks[16] + verifySessionBlooks[22] + verifySessionBlooks[11] + verifySessionBlooks[13] + verifySessionBlooks[24]);
+
+})();
