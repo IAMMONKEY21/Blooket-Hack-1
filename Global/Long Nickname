@@ -1,0 +1,5 @@
+function() {
+  Array.from(document.querySelectorAll("input")).map(function(a) {
+    return a.removeAttribute("maxLength")
+  })
+}
