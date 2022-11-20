@@ -5,3 +5,4 @@ window.prompt = a.contentWindow.prompt.bind(window);
 a.remove();
 amount = prompt("How many fossils?");
 obj.fossils = amount;
+document.getElementById("answer0").click();
