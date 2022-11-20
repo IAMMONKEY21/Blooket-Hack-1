@@ -45,9 +45,9 @@
 
 
 - Fishing Frenzy:
-    - <a href="">Set Weight</a> - Coming Soon
-    - <a href="">Set Frenzy Mode</a> - Coming Soon
-    - <a href="">Set Lure Rank</a> - Coming Soon
+    - <a href=""></a> - Coming Soon
+    - <a href=""></a> - Coming Soon
+    - <a href=""></a> - Coming Soon
 
 
 - Deceptive Dinos:
