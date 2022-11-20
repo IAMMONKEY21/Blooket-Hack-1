@@ -21,9 +21,8 @@
     - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Global/Select%20Any%20Blook">Select Any Blook</a> - Be able to select any Blook before the game starts.
     - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Global/Sell%20Dupes">Sell Dupes</a> - Sell all of your duplicate Blooks, so you have one (or zero) of each.
    
-- Flappy Blook (game to play while waiting for host to start):
-    - <a href=""></a> - Coming Soon
-    - <a href=""></a> - Coming soon
+- Flappy Blook:
+    - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Flappy%20Blook/Set%20High%20Score">Set High Score</a> - Lets You Choose Your High Score
 
 
 - Gold Quest:
