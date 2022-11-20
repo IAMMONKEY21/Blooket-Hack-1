@@ -31,10 +31,8 @@
 
 
 - Monster Brawl:
-    - <a href=""></a> - Coming soon
-    - <a href=""></a> - Coming soon
-    - <a href=""></a> - Coming soon
-    - <a href=""></a> - Coming soon
+    - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Monster%20Brawl/Max%20Out%20Skills">Max Out Skills</a> - Set the Skills you Currently Have to Max Level.
+    - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Monster%20Brawl/Set%20Level">Set Level</a> - Choose What Level you are
 
 
 - Crypto Hack:
