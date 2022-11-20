@@ -1,4 +1,4 @@
-<h1 align="center">Blooket HackS</h1>
+<h1 align="center">Blooket Hacks</h1>
 <h3 align="center">The best Blooket hacks.</h3>
 
 #### Made by VirescentOverlord (Overlord). This is purley for education purposes.
