@@ -44,9 +44,9 @@
 
 
 - Fishing Frenzy:
-    - <a href=""></a> - Coming Soon
-    - <a href=""></a> - Coming Soon
-    - <a href=""></a> - Coming Soon
+    - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Fishing%20Frenzy/Always%20Frenzy">Always Frenzy</a> - Frenzy Mode Stays Active for the Rest of the Game
+    - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Fishing%20Frenzy/Set%20Lure%20Rank">Set Lure Rank</a> - Allows you to change the rank od your lure
+    - <a href="https://github.com/VirescentOverlord/Blooket-Hack/blob/main/Fishing%20Frenzy/Set%20Weight">Set Weight</a> - Lets you Set Weight
 
 
 - Deceptive Dinos:
