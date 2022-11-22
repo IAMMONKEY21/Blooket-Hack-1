@@ -2,7 +2,7 @@
 <h3 align="center">The best Blooket hacks.</h3>
 
 #### Made by VirescentOverlord (Overlord). This is purley for education purposes.
-- 📫 Have a problem? **Just open an issue and I will do my best to respond.**
+- 📫 Having a problem? **Just open an issue and I will do my best to respond.**
 
 ## How To Use:
 #### Desktop: 
