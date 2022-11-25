@@ -53,7 +53,7 @@
   }
   findByProp("get").get("https://dashboard.blooket.com/api/users").then((e) => {
     for (let i of Object.keys(e.data.unlocks)) {
-      if (e.data.unlocks[i] !== 1) {
+      if (e.data.unlocks[i] !== 0) {
         findByProp("put").put("https://dashboard.blooket.com/api/users/sellblook", {
           name: e.data.name,
           blook: i,
