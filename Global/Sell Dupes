@@ -57,7 +57,7 @@
         findByProp("put").put("https://dashboard.blooket.com/api/users/sellblook", {
           name: e.data.name,
           blook: i,
-          numSold: e.data.unlocks[i] - 0
+          numSold: e.data.unlocks[i]
         }).then(e => console.log(e))
       }
     }
