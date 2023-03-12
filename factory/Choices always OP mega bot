@@ -8,6 +8,6 @@
    ]
    obj.class = "🤖";
    obj.rarity = "Mystical";
-   obj.level = 4;
-   obj.bonus = 1.65
+   obj.level = 99;
+   obj.bonus = 9.99999
  })
